@@ -6,7 +6,7 @@ require - rrdtool, httping, apache or other httpdaemon
 
 installation:
 
-insert into /etc/crontab
+insert into /etc/crontab<br>
 */2  *  *       *       *       root    /path/to/httping-graph.sh >/dev/null 2>&1
 
 change config settings in httping-graph.sh
