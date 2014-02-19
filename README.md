@@ -13,5 +13,5 @@ change config settings in httping-graph.sh
 
 make sure rrdtool and httping are installed
 
-Try run httping-graph.sh manualy to see if any errors it not it should start making graphs
+Try run httping-graph.sh manualy to see if any errors it not it should start making graphs.<br>
 It will take 5-10 min before you can see it on the .png pictures
