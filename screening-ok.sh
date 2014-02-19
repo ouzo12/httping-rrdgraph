@@ -6,4 +6,4 @@ user=$4
 tmpdir=/var/www/graph/url/tmp
 
 traceroute $fileurl > $tmpdir/$fileurl.trace.txt 2>&1
-mv $tmpdir/$fileurl.trace.txt $traces/$fileurl2-fail-`date +%Y-%m%d-%H-%M`.txt
+mv $tmpdir/$fileurl.trace.txt $traces/$fileurl2-ok.txt
